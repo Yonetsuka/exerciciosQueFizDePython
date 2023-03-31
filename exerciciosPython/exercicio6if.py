@@ -4,16 +4,8 @@
 # (São válidas as horas entre 00:00 e 23:59).
 num1 = int(input('Digite o valor das horas:'))
 num2 = int(input('Digite o valor dos minutos:'))
-if 0 < num1 < 23:
-    valido = True
-elif num1 > 23 or num1 < 0:
-    valido = False
-if 0 < num2 < 59:
-    valido1 = True
-elif num2 > 59 or num2 < 0:
-    valido1 = False
-if valido == True:
-    if valido1 == True:
-        print(f"As horas são {num1}:{num2}")
+if horas >= 0 and horas <= 23 and minutos >= 0 and minutos <= 59:
+    print('Horas e minutos válidos')
+    print(f'{num1} horas e {num2} minutos')
 else:
-    print('Valores para horas e/ou minutos inválidos')
+    print('Horas e/ou minutos inváldos')
