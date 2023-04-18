@@ -5,7 +5,7 @@
 altura_Chico = 1.5
 altura_Juca = 1.1
 ano = 0
-while altura_Chico > altura_Juca:
+while altura_Chico >= altura_Juca:
     altura_Chico += 0.02
     altura_Juca += 0.05
     ano += 1
