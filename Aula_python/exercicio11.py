@@ -6,4 +6,4 @@ resposta = 0
 while num <= n:
     resposta += 1 / num
     num += 1
-print(f'o resultado da equação deu {round(resposta,2}')
+print(f'o resultado da equação deu {round(resposta,2)'}
