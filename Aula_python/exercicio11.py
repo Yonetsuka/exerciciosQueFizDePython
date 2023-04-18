@@ -3,7 +3,7 @@
 n = int(input('Digite um número: '))
 num = 1
 resposta = 0
-while num != n:
+while num <= n:
     resposta += 1 / num
     num += 1
-print(f'o resultado da equação deu {resposta}')
+print(f'o resultado da equação deu {round(resposta,2}')
