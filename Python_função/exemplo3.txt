@@ -1,0 +1,5 @@
+função
+
+def nome_da_função (parametros):
+    instruções
+    return expressão
