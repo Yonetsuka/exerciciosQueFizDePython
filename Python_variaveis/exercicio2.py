@@ -18,3 +18,5 @@ except ValueError:
     print('ERRO: o valor informado não é inteiro')
 except TypeError as erro:
     print(f'ERRO: {erro}')
+else:
+    break
