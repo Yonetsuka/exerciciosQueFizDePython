@@ -10,13 +10,16 @@ def triangular(numero):
         if a * (a + 1) * (a + 2) == numero:
             return True
      return False
-
-try:
-    numero = int(input('Informe um numero inteiro: '))
-    print(triagular(numero))
-except ValueError:
-    print('ERRO: o valor informado não é inteiro')
-except TypeError as erro:
-    print(f'ERRO: {erro}')
-else:
-    break
+while True:
+    try:
+        numero = int(input('Informe um numero inteiro: '))
+        if triangular(numero) == True:
+            print(f'O numero {numero} é triangular')
+        else:
+            print(f'O numero {numero} não é triangular')
+    except ValueError:
+        print('ERRO: o valor informado não é inteiro')
+    except TypeError as erro:
+        print(f'ERRO: {erro}')
+    else:
+        break
